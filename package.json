@@ -1,0 +1,25 @@
+{
+  "name": "reodash",
+  "version": "0.1.0",
+  "description": "Implement most lodash functions using just the reduce function",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-register -w"
+  },
+  "keywords": [
+    "lodash",
+    "reduce",
+    "functional",
+    "javascript",
+    "underscore"
+  ],
+  "author": "Mukesh Soni",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
