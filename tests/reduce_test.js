@@ -1,4 +1,4 @@
-import reduce from '../src/reduce'
+import reduce from '../../src/array/reduce'
 import chai from 'chai'
 let expect = chai.expect
 

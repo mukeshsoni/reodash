@@ -1,4 +1,4 @@
-import map from '../src/map'
+import map from '../../src/array/map'
 import chai from 'chai'
 let expect = chai.expect
 
