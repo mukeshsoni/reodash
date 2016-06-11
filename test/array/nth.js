@@ -8,5 +8,5 @@ describe('nth', function () {
         expect(nth([2, 1, 3, 5, 0])).to.eql(2)
         expect(nth([])).to.eql(undefined)
         expect(nth([1, 3], 5)).to.eql(undefined)
-    });
-});
+    })
+})

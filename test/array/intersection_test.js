@@ -10,5 +10,5 @@ describe('intersection', function () {
         expect(intersection([2, 1], [])).to.eql([])
         expect(intersection([], [])).to.eql([])
         expect(intersection([], [2, 4])).to.eql([])
-    });
-});
+    })
+})

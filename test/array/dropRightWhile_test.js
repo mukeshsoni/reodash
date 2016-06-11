@@ -8,8 +8,8 @@ describe('dropRightWhile', function () {
             { 'user': 'barney',  'active': true },
             { 'user': 'fred',    'active': false },
             { 'user': 'pebbles', 'active': false }
-        ];
+        ]
 
         expect(dropRightWhile(users, (o) => !o.active)).to.eql([{ 'user': 'barney', 'active': true }])
-    });
-});
+    })
+})

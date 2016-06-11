@@ -8,10 +8,10 @@ describe('findIndex', function () {
             { 'user': 'barney',  'active': false },
             { 'user': 'fred',    'active': false },
             { 'user': 'pebbles', 'active': true }
-        ];
+        ]
 
         expect(findIndex(users, (o) => o.user === 'barney')).to.eql(0)
         expect(findIndex(users, (o) => o.active === true)).to.eql(2)
         expect(findIndex(users, (o) => o.user === 'nobody')).to.eql(-1)
-    });
-});
+    })
+})

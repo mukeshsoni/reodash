@@ -7,5 +7,5 @@ describe('initial', function () {
         expect(initial([2, 1])).to.eql([2])
         expect(initial([2, 1, 9])).to.eql([2, 1])
         expect(initial([])).to.eql([])
-    });
-});
+    })
+})

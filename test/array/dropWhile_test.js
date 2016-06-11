@@ -8,8 +8,8 @@ describe('dropWhile', function () {
             { 'user': 'barney',  'active': false },
             { 'user': 'fred',    'active': false },
             { 'user': 'pebbles', 'active': true }
-        ];
+        ]
 
         expect(dropWhile(users, (o) => !o.active)).to.eql([{ 'user': 'pebbles', 'active': true }])
-    });
-});
+    })
+})

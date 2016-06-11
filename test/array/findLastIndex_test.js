@@ -8,10 +8,10 @@ describe('findLastIndex', function () {
             { 'user': 'barney',  'active': false },
             { 'user': 'fred',    'active': false },
             { 'user': 'pebbles', 'active': true }
-        ];
+        ]
 
         expect(findLastIndex(users, (o) => o.user === 'barney')).to.eql(0)
         expect(findLastIndex(users, (o) => o.active === false)).to.eql(1)
         expect(findLastIndex(users, (o) => o.user === 'nobody')).to.eql(-1)
-    });
-});
+    })
+})

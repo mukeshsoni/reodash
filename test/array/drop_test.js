@@ -8,5 +8,5 @@ describe('drop', function () {
         expect(drop([1, 2, 3], 2)).to.eql([3])
         expect(drop([1, 2, 3], 5)).to.eql([])
         expect(drop([1, 2, 3], 0)).to.eql([1, 2, 3])
-    });
-});
+    })
+})

@@ -8,5 +8,5 @@ describe('join', function () {
         expect(join(['a', 'b', 'c'])).to.eql('a,b,c')
         expect(join([])).to.eql('')
         expect(join(['a'])).to.eql('a')
-    });
-});
+    })
+})

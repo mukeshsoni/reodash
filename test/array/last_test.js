@@ -7,5 +7,5 @@ describe('last', function () {
         expect(last([2, 1])).to.eql(1)
         expect(last([2, 1, 5, 9, 0])).to.eql(0)
         expect(last([])).to.eql(undefined)
-    });
-});
+    })
+})
