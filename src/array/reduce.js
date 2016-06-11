@@ -1,7 +1,7 @@
 // TODO - write reduce for objects
 export default function reduce(arr, fn, initialVal) {
-    let acc = initialVal !== undefined ? initialVal : arr[0]
-    let i = initialVal !== undefined ? 0 : 1
+    let acc = arguments.length === 3 ? initialVal : arr[0]
+    let i = arguments.length === 3 ? 0 : 1
 
     return _reduce(arr.slice(i), fn, acc, i);
 }
