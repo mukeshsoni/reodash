@@ -4,7 +4,7 @@
   "description": "Implement most lodash functions using just the reduce function",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-register -w"
+    "test": "./node_modules/mocha/bin/mocha test/*/*.js --compilers js:babel-register -w"
   },
   "keywords": [
     "lodash",
